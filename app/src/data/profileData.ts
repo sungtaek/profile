@@ -44,7 +44,7 @@ export type Certification = {
 
 export const profileData = {
   name: "이성택",
-  title: "백엔드 엔지니어",
+  title: "Backend Developer",
   summary: "언제나 쓸모를 꿈꾸는 백엔드 개발자입니다.\n주로 Java, JavaScript, C/C++을 사용하며,\n가끔 Python, Golang을 사용하기도 합니다.",
   birthdate: "1981. 11. 06",
   email: "leesungtaek@gmail.com",

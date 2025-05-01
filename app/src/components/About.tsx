@@ -16,7 +16,7 @@ const About = () => {
           <div className="prose prose-lg max-w-none dark:prose-invert">
             {profileData.about.map((paragraph, index) => (
               <p key={index} className="mb-4 text-gray-700">
-                {paragraph}
+                {paragraph.replace(/\n/g, '<br>')}
               </p>
             ))}
           </div>
