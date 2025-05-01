@@ -52,9 +52,9 @@ export const profileData = {
   github: "https://github.com/sungtaek",
   military: "육군 만기전역(2002.02 ~ 2004.04)",
   about: [
-    "12년 이상의 경력을 보유한 백엔드 개발자로, 삼성전자에서 AI 서버 개발 그룹의 수석 엔지니어로 근무하였습니다. Bixby, Samsung Daily 등 대규모 서비스의 백엔드 시스템을 설계하고, 개발, 운영한 경험이 있습니다.",
-    "지금까지 해왔고, 또한 제일 관심 있는 분야는 Backend 시스템입니다. Backend 시스템은 대용량 트래픽 처리 및 서비스를 안정적으로 제공하는 것이 기본이고, 그 위에 유연한 확장과 요구사항에 따른 다양한 기능 추가가 손쉽게 될 수 있는 것이 이상적인 목표라 생각합니다.",
-    "개발 경험 때문에 굳이 특정 솔루션이나 프레임워크에 종속되는 것을 지양하며, 서비스나 프로젝트에 따라 그에 맞는 기술을 사용하는 것이 바람직하다고 생각합니다. 특정 기술분야에 얽매이지는 않는 편이며, 시대의 흐름에 따라 새로운 기술들을 최대한 빨리 습득해 놓고, 서비스에 필요한 기술이라 판단이 되면, 과감히 적용하려 합니다."
+    "삼성전자에서 AI 서버 개발 그룹의 수석 엔지니어로 근무하였습니다.\nBixby, Samsung Daily 등 대규모 서비스의 백엔드 시스템을 설계하고, 개발, 운영한 경험이 있습니다.",
+    "지금까지 해왔고, 또한 제일 관심 있는 분야는 Backend 시스템입니다.\nBackend 시스템은 대용량 트래픽 처리 및 서비스를 안정적으로 제공하는 것이 기본이고,\n그 위에 유연한 확장과 요구사항에 따른 다양한 기능 추가가 손쉽게 될 수 있는 것이 이상적인 목표라 생각합니다.",
+    "개발 경험 때문에 굳이 특정 솔루션이나 프레임워크에 종속되는 것을 지양하며,\n서비스나 프로젝트에 따라 그에 맞는 기술을 사용하는 것이 바람직하다고 생각합니다.\n특정 기술분야에 얽매이지는 않는 편이며, 시대의 흐름에 따라 새로운 기술들을 최대한 빨리 습득해 놓고,\n서비스에 필요한 기술이라 판단이 되면, 과감히 적용하려 합니다."
   ],
   skills: {
     languages: [
@@ -211,13 +211,13 @@ export const profileData = {
       id: "bixby",
       title: "Bixby",
       period: "2018.01 ~ 2025.02",
-      summary: "삼성전자의 인공지능 비서 서비스로서 모바일, TV, 가전등 다양한 기기에 연동되어 서비스",
+      summary: "삼성전자의 인공지능 비서 서비스로써,\n모바일, TV, 가전등 다양한 기기에 연동되어 서비스",
       technologies: ["Java", "Spring", "TypeScript", "DynamoDB", "Redis", "GCP"],
       image: "bixby.svg",
       details: [
         {
           title: "ASR 서비스",
-          description: "사용자 발화(음성) 데이터를 Text로 변환해 주는 서버로써, Bixby 서비스의 맨 앞단에서 사용자의 발화를 Text로 변환하여 NLU로 전달하는 역할을 수행",
+          description: "사용자 발화(음성) 데이터를 Text로 변환해 주는 서버로써,\nBixby 서비스의 맨 앞단에서 사용자의 발화를 Text로 변환하여\nNLU로 전달하는 역할을 수행",
           achievements: [
             "역할: ASR 서버 개발 리드",
             "사용자 음성 stream을 수신하여, 전처리 및 STT-engine, ITN을 이용하여 text 변환 처리",
@@ -229,7 +229,7 @@ export const profileData = {
         },
         {
           title: "PDSS 서비스",
-          description: "Bixby 서비스의 사용자 데이터 관리 서버로써, 사용자의 user 및 device data를 관리하며, ASR 및 NLU 등 Bixby 내의 서버들에게 제공",
+          description: "Bixby 서비스의 사용자 데이터 관리 서버로써,\n사용자의 user 및 device data를 관리하며,\nASR 및 NLU 등 Bixby 내의 서버들에게 제공",
           achievements: [
             "역할: PDSS 서버 개발 리드",
             "device 및 IoT 서버들로부터 사용자 데이터를 수집 처리",
@@ -241,7 +241,7 @@ export const profileData = {
         },
         {
           title: "Marketplace 서비스",
-          description: "Bixby의 capsule 및 사용자 발화 관리 시스템으로써 Bixby app을 통하여 캡슐 관리 및 사용자 Activity의 예약, 상태 확인 등을 제공하는 서비스",
+          description: "Bixby의 capsule 및 사용자 발화 관리 시스템으로써\nBixby app을 통하여 캡슐 관리 및 사용자 Activity의 예약,\n상태 확인 등을 제공하는 서비스",
           achievements: [
             "역할: 서버 개발",
             "캡슐 관리 서버 및 추천 서버 개발",
@@ -260,7 +260,7 @@ export const profileData = {
       image: "samsung-daily.svg",
       details: [
         {
-          description: "삼성 모바일 기기의 맨 앞 페이지에 노출되는 서비스 중 하나로써, 사용자의 사용패턴에 따라 자주 쓰는 App 및 서비스가 카드 형태로 노출되어, 필요한 순간에 원하는 정보를 확인할 수 있는 서비스",
+          description: "삼성 모바일 기기의 맨 앞 페이지에 노출되는 서비스 중 하나로써,\n사용자의 사용패턴에 따라 자주 쓰는 App 및 서비스가 카드 형태로 노출되어,\n필요한 순간에 원하는 정보를 확인할 수 있는 서비스",
           achievements: [
             "역할: 서버 개발",
             "사용자 기기에 카드정보를 제공하는 API 서버 개발",
@@ -281,7 +281,7 @@ export const profileData = {
       image: "samsung-roaming.svg",
       details: [
         {
-          description: "Soft SIM을 이용한 데이터 Roaming 서비스. 삼성폰을 가진 유저가 해외 여행 전 또는 현지에서 데이터 SIM 구매 및 사용을 제공하는 서비스",
+          description: "Soft SIM을 이용한 데이터 Roaming 서비스.\n삼성폰을 가진 유저가 해외 여행 전 또는 현지에서 데이터 SIM 구매 및 사용을 제공",
           achievements: [
             "역할: 서버 개발",
             "3rd party MVNO 업체와 연동하여 Soft SIM의 구매 및 사용을 처리",
@@ -304,7 +304,7 @@ export const profileData = {
       image: "watchon.svg",
       details: [
         {
-          description: "모바일에서 VOD 및 TV 프로그램 정보(EPG)를 제공하고, VOD 컨텐츠 구매 및 개인의 시청 패턴에 기반하여 프로그램을 추천해주는 서비스",
+          description: "모바일에서 VOD 및 TV 프로그램 정보(EPG)를 제공하고,\nVOD 컨텐츠 구매 및 개인의 시청 패턴에 기반하여 프로그램을 추천해주는 서비스",
           achievements: [
             "역할: 서버 개발",
             "다양한 컨텐츠 메타데이터 업체와 컨텐츠 서비스 업체의 데이터를 수급하여 일원화된 데이터 베이스 구축",
@@ -328,7 +328,7 @@ export const profileData = {
       image: "cscf.svg",
       details: [
         {
-          description: "LG Telecom, SK Broadband의 모바일 폰 영상통화, 인터넷 집전화, IM(Instance Message) 처리 서버",
+          description: "LG Telecom, SK Broadband의 모바일 폰 영상통화,\n인터넷 집전화, IM(Instance Message) 처리 서버",
           achievements: [
             "역할: 서버 개발",
             "3gpp 통신 규약에 명시된 IMS 서버들로 인터넷 기반의 전화 서비스 제공",
@@ -342,14 +342,14 @@ export const profileData = {
     },
     {
       id: "skt-pcf",
-      title: "SKT PCF",
+      title: "PCF",
       period: "2012.02 ~ 2012.07",
-      summary: "사용자 데이터 사용량 절감을 위한 컨텐츠 압축 및 cache 시스템",
+      summary: "SKT의 사용자 데이터 사용량 절감을 위한 컨텐츠 압축 및 cache 시스템",
       technologies: ["C", "HTTP", "HLS"],
       image: "skt-pcf.svg",
       details: [
         {
-          description: "사용자가 Download 받는 데이터의 사용량 절감을 위한 컨텐츠 압축 및 cache 시스템",
+          description: "사용자가 Download 받는 데이터의 사용량 절감을 위한\n컨텐츠 압축 및 cache 시스템",
           achievements: [
             "역할: 서버 개발",
             "사용자가 Http Live Streaming 으로 컨텐츠 재생시, http 메시지를 proxy하는 과정에서, 캐시 서버 및 컨텐츠 압축 서버와 연동",
