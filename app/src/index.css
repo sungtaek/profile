@@ -106,7 +106,7 @@
   /* Show both start and end years in two lines */
   .timeline-year {
     position: absolute;
-    left: -60px;
+    left: -80px;
     top: 12px;
     @apply text-xs font-semibold text-primary;
     width: 50px;
