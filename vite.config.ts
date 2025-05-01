@@ -24,6 +24,7 @@ export default defineConfig({
     },
   },
   root: path.resolve(import.meta.dirname, "app"),
+  base: '/profile/', // Add this line for GitHub Pages deployment
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
